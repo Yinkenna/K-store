@@ -6,53 +6,198 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="Icon" href="./img/ifast/ifast-logo-mini.png" type="image/png">
-    <title>Tạp Hóa Online</title>
+    <title>BlogK</title>
 </head>
 <body>
     <!-- header -->
-    <div class="bg-main-dark">
-        <div class="header container">
-            <div class="header__wrapper">
-                <a href="index.html" class="nav__logo">
-                    <img src="./img/ifast/ifast-logo.svg" alt="Logo-IFAST">
+    <header>
+        <div class="nav container">
+            <div class="nav__wrapper">
+                <a href="index.html" class="logo">
+                    <img src="./img/ifast/ifast-logo.svg" alt="logo">
                 </a>
-                <ul class="nav__menu">
-                    <li class="nav__list">
-                        <a href="#" class="list__item current">Trang Chủ</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="list__item">Blog</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="list__item">Giới thiệu</a>
-                    </li>
-                    <li class="nav__list">
-                        <a href="#" class="list__item">Donate</a>
-                    </li>
-                </ul>
-                <div class="nav__QnA">
-                    <button class="btn btn__QnA">Q&A</button>
+                <div class="nav__section">
+                    <div class="nav__wrapper">
+                        <ul class="nav__list">
+                            <li class="list__section">
+                                <a href="#" class="list__item">Trang chủ</a>
+                            </li>
+                            <li class="list__section">
+                                <a href="#" class="list__item">Blog</a>
+                            </li>
+                            <li class="list__section">
+                                <a href="#" class="list__item">Giới thiệu</a>
+                            </li>
+                            <li class="list__section">
+                                <a href="#" class="list__item">Donate</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
+                <a href="#" class="qna">
+                    <button class="btn btn__qna">Q & A</button>
+                </a>
             </div>
         </div>
-        <div class="home">
-            <div class="home__content--left">
-                <div class="home-content__left--wrapper">
-                    <h2 class="home-content__title">Thứ bạn cần, chúng tôi không có :)</h2>
-                    <span class="home-content__description">Trở thành nguồn tài nguyên tất cả trong một cho nhu cầu trực tuyến của bạn</span>
-                </div>
-                <button class="btn btn__viewMore">Xem thêm</button>
+    </header>
+    <div class="home container">
+        
+        <div class="home__content">
+            <div class="home__content--text">
+                <h2 class="title">Thứ bạn cần, chúng tôi không có :)</h2>
+                <span class="subtitle">Trở thành nguồn tài nguyên tất cả trong một cho nhu cầu trực tuyến của bạn</span>
             </div>
-            <div class="home__content--right">
-                <div class="home-content__image--wrapper">
-                    <img src="./img/Banners/banners__post/banner (9).jpg" alt="">
+            <button class="btn btn__viewMore">Xem thêm</button>
+        </div>
+        <div class="home__image">
+            <img src="./img/Banners/banners__post/banner (18).jpg" alt="">
+        </div>
+    </div>
+    <div class="blog container">
+        <div class="blog__content">
+            <div class="blog__content--text">
+                <h2 class="title">Blog - Nơi tui chia sẽ nè</h2>
+                <span class="subtitle">Kiểu mỗi tuần thứ 7 tui sẽ up một bài á. Mặc dù tui chia sẽ có thể không hay nhưng mà tui sẽ cố gắng diễn đạt tuyệt vời hơn qua từng ngày</span>
+            </div>
+        </div>
+        <div class="blog__title">
+            <span class="box__title">Mấy bài được nhiều view</span>
+            <a href="#" class="btn__viewMore--blog">
+                <span class="btn__viewMore--text">Xem thêm</span>
+                <div class="icon__viewMore">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
                 </div>
+            </a>
+        </div>
+        <div class="boxs container">
+            <div class="box">
+                <div class="box-wrapper">
+                    <a href="#" class="box-item-selector">
+                        <div class="box-item">
+                            <div class="box-top">
+                                <img src="./img/Banners/banners__post/Vector.png" alt="">
+                                <span class="limit-title box__text--title">Function Callback là gì ? Tại sao nó lại quan trọng</span>
+                            </div>
+                            <span class="limit box__text--subtitle">Function callback có vẻ không gì khó, nhưng nó khá khó hiểu so với người mới tiếp cận.  Function callback được truyền dưới dạng tham số cho một hàm khác để được thực thi sau khi điều kiện nhất định được thỏa mãn. Nó được sử dụng để xử lý sự kiện và các tác vụ bất đồng bộ. </span>
+                        </div>
+                    </a>
+                    <a href="#" class="box-item-selector">
+                        <div class="box-item">
+                            <div class="box-top">
+                                <img src="./img/Banners/banners__post/Vector.png" alt="">
+                                <span class="limit-title box__text--title">Function Callback là gì ? Tại sao nó lại quan trọng</span>
+                            </div>
+                            <span class="limit box__text--subtitle">Function callback có vẻ không gì khó, nhưng nó khá khó hiểu so với người mới tiếp cận.  Function callback được truyền dưới dạng tham số cho một hàm khác để được thực thi sau khi điều kiện nhất định được thỏa mãn. Nó được sử dụng để xử lý sự kiện và các tác vụ bất đồng bộ. </span>
+                        </div>
+                    </a>
+                    <a href="#" class="box-item-selector">
+                        <div class="box-item">
+                            <div class="box-top">
+                                <img src="./img/Banners/banners__post/Vector.png" alt="">
+                                <span class="limit-title box__text--title">Function Callback là gì ? Tại sao nó lại quan trọng</span>
+                            </div>
+                            <span class="limit box__text--subtitle">Function callback có vẻ không gì khó, nhưng nó khá khó hiểu so với người mới tiếp cận.  Function callback được truyền dưới dạng tham số cho một hàm khác để được thực thi sau khi điều kiện nhất định được thỏa mãn. Nó được sử dụng để xử lý sự kiện và các tác vụ bất đồng bộ. </span>
+                        </div>
+                    </a>
+                    <a href="#" class="box-item-selector">
+                        <div class="box-item">
+                            <div class="box-top">
+                                <img src="./img/Banners/banners__post/Vector.png" alt="">
+                                <span class="limit-title box__text--title">Function Callback là gì ? Tại sao nó lại quan trọng</span>
+                            </div>
+                            <span class="limit box__text--subtitle">Function callback có vẻ không gì khó, nhưng nó khá khó hiểu so với người mới tiếp cận.  Function callback được truyền dưới dạng tham số cho một hàm khác để được thực thi sau khi điều kiện nhất định được thỏa mãn. Nó được sử dụng để xử lý sự kiện và các tác vụ bất đồng bộ. </span>
+                        </div>
+                    </a>
+                </div>
+                
             </div>
         </div>
     </div>
-    <div class="bg-main-light">
-        <div class="post"></div>
-    </div>
+    <div class="profile container">
+        <div class="profile--wrapper">
+            <div class="profile__content">
+                <div class="profile__content--wrapper">
+                    <h2 class="profile__title pdb-16">Người đì sai ra web này</h2>
+                    <span class="profile__subtitle pdb-16">Không ai khác chính là tui, một wibu không chính hiệu. Tại tui học ngành công nghệ thông tin - Kỹ thuật phần mềm á nên tui decode ra web này để làm nền cho sau này tui tìm việc làm .-.</span>
+                    <div class="line pdb-16"></div>
+                    <div class="profile__miniText--wrapper pdb-16 pdt-16">
+                        <span class="profile__miniText ">Tui chưa có việc làm, chị HR quan tâm tui đi</span>
+                    </div>
+                    <div class="list__icon">
+                        <a href="#" class="list__icon--select pdr-16">
+                            <div class="icon ">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.035 24.1554C10.035 24.2784 9.894 24.3774 9.72 24.3774C9.546 24.3774 9.381 24.2994 9.381 24.1554C9.381 24.0114 9.519 23.9334 9.696 23.9334C9.873 23.9334 10.035 23.9994 10.035 24.1554ZM8.154 23.8764C8.112 23.9994 8.232 24.1434 8.412 24.1764C8.4447 24.1929 8.48034 24.2029 8.51688 24.2057C8.55342 24.2084 8.59016 24.204 8.62498 24.1926C8.65981 24.1811 8.69204 24.163 8.71984 24.1391C8.74764 24.1152 8.77046 24.0861 8.787 24.0534C8.826 23.9304 8.709 23.7864 8.529 23.7294C8.45975 23.7028 8.3831 23.7028 8.31384 23.7294C8.24459 23.7559 8.18764 23.8073 8.154 23.8734V23.8764ZM10.827 23.7714C10.65 23.8134 10.527 23.9334 10.548 24.0714C10.569 24.2094 10.725 24.2754 10.905 24.2334C11.085 24.1914 11.205 24.0714 11.184 23.9334C11.163 23.7954 11.001 23.7534 10.827 23.7714ZM14.805 0C6.417 0 0 6.53083 0 15.1346C0 22.0164 4.221 27.8993 10.251 29.9752C11.025 30.1162 11.298 29.6272 11.298 29.2222C11.298 28.8173 11.28 26.7173 11.28 25.4153C11.28 25.4153 7.047 26.3453 6.156 23.5674C6.156 23.5674 5.469 21.7674 4.476 21.2964C4.476 21.2964 3.09 20.3215 4.572 20.3395C5.05719 20.4092 5.51972 20.5901 5.92353 20.8679C6.32734 21.1458 6.66151 21.5132 6.9 21.9414C8.226 24.3414 10.446 23.6454 11.31 23.2374C11.3858 22.4479 11.7274 21.7075 12.279 21.1375C8.898 20.7535 5.487 20.2375 5.487 14.2826C5.487 12.5787 5.946 11.7207 6.912 10.6287C6.45823 9.25519 6.51468 7.76413 7.071 6.42883C8.34 6.02384 11.25 8.09979 11.25 8.09979C13.7331 7.39576 16.3629 7.39576 18.846 8.09979C18.846 8.09979 21.756 5.99984 23.019 6.42283C23.85 8.57678 23.319 10.2327 23.178 10.6227C24.144 11.7207 24.738 12.5787 24.738 14.2766C24.738 20.2765 21.174 20.7415 17.793 21.1315C18.351 21.6204 18.822 22.5534 18.822 24.0114C18.822 26.1113 18.804 28.6883 18.804 29.1952C18.804 29.6002 19.083 30.0952 19.851 29.9452C25.899 27.8993 30 22.0164 30 15.1346C30 6.53083 23.196 0 14.805 0ZM5.88 21.3954C5.799 21.4554 5.82 21.5994 5.922 21.7164C6.024 21.8334 6.156 21.8604 6.237 21.7794C6.318 21.6984 6.297 21.5754 6.195 21.4554C6.093 21.3354 5.958 21.3144 5.88 21.3954ZM5.226 20.8915C5.184 20.9725 5.244 21.0715 5.364 21.1344C5.38355 21.1501 5.40619 21.1614 5.43043 21.1676C5.45467 21.1739 5.47995 21.1749 5.50462 21.1706C5.52929 21.1664 5.55277 21.157 5.57352 21.143C5.59427 21.129 5.61182 21.1107 5.625 21.0895C5.667 21.0115 5.607 20.9125 5.487 20.8495C5.367 20.7865 5.268 20.8315 5.226 20.8915ZM7.2 23.0994C7.104 23.1804 7.14 23.3664 7.278 23.4864C7.416 23.6064 7.593 23.6454 7.671 23.5464C7.749 23.4474 7.716 23.2794 7.593 23.1624C7.47 23.0454 7.263 23.0004 7.2 23.0994ZM6.51 22.1994C6.414 22.2624 6.414 22.4244 6.51 22.5654C6.606 22.7064 6.771 22.7724 6.849 22.7094C6.8939 22.6555 6.91849 22.5876 6.91849 22.5174C6.91849 22.4473 6.8939 22.3793 6.849 22.3254C6.765 22.1814 6.609 22.1214 6.51 22.1994Z" fill="#FFFFFE"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="#" class="list__icon--select">
+                            <div class="icon">
+                                <svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30.185 14.9979C30.1669 12.1177 29.3251 9.30279 27.7588 6.88559C26.1926 4.46838 23.9674 2.54982 21.346 1.35643C18.7246 0.163051 15.8164 -0.255312 12.9649 0.150744C10.1134 0.556801 7.43763 1.77032 5.25354 3.64801C3.06945 5.5257 1.46825 7.98915 0.63902 10.7475C-0.190213 13.5058 -0.212855 16.4438 0.573769 19.2146C1.36039 21.9853 2.92343 24.4732 5.07832 26.3843C7.23322 28.2954 9.88997 29.55 12.7349 30V19.3899H8.90135V14.9979H12.7349V11.6534C12.7349 7.84701 14.9867 5.74612 18.4339 5.74612C19.5666 5.764 20.6966 5.86489 21.8146 6.04797V9.77585H19.922C18.0475 9.77585 17.4619 10.944 17.4619 12.1454V14.9979H21.6365L20.9664 19.3899H17.4498V30C21.01 29.4227 24.2478 27.5952 26.5819 24.8457C28.9159 22.0961 30.1934 18.6046 30.185 14.9979Z" fill="#FFFFFE"/>
+                                    </svg>
     
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="project__mini">
+                    <div class="project__content">
+                        <span class="project__title">Project mini tui học và làm</span>
+                        <div class="project__box">
+                            <div class="project__list">
+                                <div class="project__item">
+                                    <a href="#" class="pj-item__source">
+                                        <figure class="hover-img">
+                                            <img src="./img/Banners/banners__post/banner (11).jpg">
+                                            <figcaption>
+                                                <span>Management Features</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="project__item">
+                                    <a href="#" class="pj-item__source">
+                                        <figure class="hover-img">
+                                            <img src="./img/Banners/banners__post/banner (11).jpg">
+                                            <figcaption>
+                                                <span>Management Features</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="project__item">
+                                    <a href="#" class="pj-item__source">
+                                        <figure class="hover-img">
+                                            <img src="./img/Banners/banners__post/banner (11).jpg">
+                                            <figcaption>
+                                                <span>Management Features</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                                <div class="project__item">
+                                    <a href="#" class="pj-item__source">
+                                        <figure class="hover-img">
+                                            <img src="./img/Banners/banners__post/banner (11).jpg">
+                                            <figcaption>
+                                                <span>Management Features</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="profile__image">
+                <img src="./img/Banners/banners__post/banner (15).jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
     <script src="./js/main.js"></script>
 </html>
